@@ -1,0 +1,77 @@
+{
+	"info": {
+		"_postman_id": "24c9acd6-10ef-4dee-955f-f2247359c40c",
+		"name": "Pixilogic",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://www.phptravels.net/account/signup",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "*/*"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded; charset=UTF-8"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "confirmpassword",
+							"value": "12345678"
+						},
+						{
+							"key": "email",
+							"value": "A6@gmail.com"
+						},
+						{
+							"key": "firstname",
+							"value": "A6"
+						},
+						{
+							"key": "lastname",
+							"value": "A6"
+						},
+						{
+							"key": "password",
+							"value": "12345678"
+						},
+						{
+							"key": "phone",
+							"value": "0101010101"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://www.phptravels.net/account/signup",
+					"protocol": "https",
+					"host": [
+						"www",
+						"phptravels",
+						"net"
+					],
+					"path": [
+						"account",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
